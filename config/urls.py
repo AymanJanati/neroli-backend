@@ -22,6 +22,11 @@ urlpatterns = [
 
     # Admin/private endpoints (auth required)
     path("api/admin/", include("properties.urls.admin")),
+    # PERSON_B — CRM & Sales
+    path("api/admin/", include("leads.urls")),
+    path("api/admin/", include("crm.urls")),
+    path("api/admin/", include("interactions.urls")),
+    path("api/admin/", include("dashboard.urls")),
 ]
 
 if settings.DEBUG:

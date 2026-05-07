@@ -40,11 +40,11 @@ LOCAL_APPS = [
     "accounts",
     "properties",
     "core",
-    # PERSON_B apps will be added here:
-    # "leads",
-    # "crm",
-    # "interactions",
-    # "dashboard",
+    # PERSON_B apps
+    "leads",
+    "crm",
+    "interactions",
+    "dashboard",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
